@@ -1,0 +1,12 @@
+<h3>Mission Control</h3>
+<button type="button" (click)="announce()">Announce mission</button>
+<!-- [astronaut]="astronaut"，[給子元件接收的變數名稱]="父元件的變數" -->
+<app-service-interation-child
+  *ngFor="let astronaut of astronauts"
+  [astronaut]="astronaut"
+></app-service-interation-child>
+
+<h4>History</h4>
+<ul>
+  <li *ngFor="let event of history">{{ event }}</li>
+</ul>

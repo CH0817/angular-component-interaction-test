@@ -15,6 +15,8 @@ import { LocalVariableInterationChildComponent } from './local-variable-interati
 import { LocalVariableInterationParentComponent } from './local-variable-interation-parent/local-variable-interation-parent.component';
 import { ViewchildInterationParentComponent } from './viewchild-interation-parent/viewchild-interation-parent.component';
 import { ViewchildInterationChildComponent } from './viewchild-interation-child/viewchild-interation-child.component';
+import { ServiceInterationChildComponent } from './service-interation-child/service-interation-child.component';
+import { ServiceInterationParentComponent } from './service-interation-parent/service-interation-parent.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ViewchildInterationChildComponent } from './viewchild-interation-child/
     LocalVariableInterationChildComponent,
     LocalVariableInterationParentComponent,
     ViewchildInterationParentComponent,
-    ViewchildInterationChildComponent
+    ViewchildInterationChildComponent,
+    ServiceInterationChildComponent,
+    ServiceInterationParentComponent
   ],
   imports: [
     BrowserModule,
