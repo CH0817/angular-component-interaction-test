@@ -1,0 +1,6 @@
+<h2>Master controls {{ names.length }} names</h2>
+<!-- [name]="name"，[給子元件接收的變數名稱]="父元件的變數" -->
+<app-setter-inetration-child
+  *ngFor="let name of names"
+  [name]="name"
+></app-setter-inetration-child>
