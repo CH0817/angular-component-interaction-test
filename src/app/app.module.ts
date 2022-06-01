@@ -7,6 +7,8 @@ import { InputBindingParentComponent } from './input-binding-parent/input-bindin
 import { InputBindingChildComponent } from './input-binding-child/input-binding-child.component';
 import { SetterInetrationParentComponent } from './setter-inetration-parent/setter-inetration-parent.component';
 import { SetterInetrationChildComponent } from './setter-inetration-child/setter-inetration-child.component';
+import { NgonchangeInetrationChildComponent } from './ngonchange-inetration-child/ngonchange-inetration-child.component';
+import { NgonchangeInetrationParentComponent } from './ngonchange-inetration-parent/ngonchange-inetration-parent.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SetterInetrationChildComponent } from './setter-inetration-child/setter
     InputBindingParentComponent,
     InputBindingChildComponent,
     SetterInetrationParentComponent,
-    SetterInetrationChildComponent
+    SetterInetrationChildComponent,
+    NgonchangeInetrationChildComponent,
+    NgonchangeInetrationParentComponent
   ],
   imports: [
     BrowserModule,

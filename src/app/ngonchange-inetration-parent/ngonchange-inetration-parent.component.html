@@ -1,0 +1,8 @@
+<h3>Source code version</h3>
+<button type="button" (click)="newMinor()">New minor version</button>
+<button type="button" (click)="newMajor()">New major version</button>
+<!-- [給子元件接收的變數名稱]="父元件的變數" -->
+<app-ngonchange-inetration-child
+  [major]="major"
+  [minor]="minor"
+></app-ngonchange-inetration-child>
