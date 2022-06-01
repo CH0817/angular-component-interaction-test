@@ -13,6 +13,8 @@ import { EventemitterParentComponent } from './eventemitter-parent/eventemitter-
 import { EventemitterChildComponent } from './eventemitter-child/eventemitter-child.component';
 import { LocalVariableInterationChildComponent } from './local-variable-interation-child/local-variable-interation-child.component';
 import { LocalVariableInterationParentComponent } from './local-variable-interation-parent/local-variable-interation-parent.component';
+import { ViewchildInterationParentComponent } from './viewchild-interation-parent/viewchild-interation-parent.component';
+import { ViewchildInterationChildComponent } from './viewchild-interation-child/viewchild-interation-child.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LocalVariableInterationParentComponent } from './local-variable-interat
     EventemitterParentComponent,
     EventemitterChildComponent,
     LocalVariableInterationChildComponent,
-    LocalVariableInterationParentComponent
+    LocalVariableInterationParentComponent,
+    ViewchildInterationParentComponent,
+    ViewchildInterationChildComponent
   ],
   imports: [
     BrowserModule,
