@@ -11,6 +11,8 @@ import { NgonchangeInetrationChildComponent } from './ngonchange-inetration-chil
 import { NgonchangeInetrationParentComponent } from './ngonchange-inetration-parent/ngonchange-inetration-parent.component';
 import { EventemitterParentComponent } from './eventemitter-parent/eventemitter-parent.component';
 import { EventemitterChildComponent } from './eventemitter-child/eventemitter-child.component';
+import { LocalVariableInterationChildComponent } from './local-variable-interation-child/local-variable-interation-child.component';
+import { LocalVariableInterationParentComponent } from './local-variable-interation-parent/local-variable-interation-parent.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { EventemitterChildComponent } from './eventemitter-child/eventemitter-ch
     NgonchangeInetrationChildComponent,
     NgonchangeInetrationParentComponent,
     EventemitterParentComponent,
-    EventemitterChildComponent
+    EventemitterChildComponent,
+    LocalVariableInterationChildComponent,
+    LocalVariableInterationParentComponent
   ],
   imports: [
     BrowserModule,
