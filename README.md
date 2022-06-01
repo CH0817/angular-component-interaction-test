@@ -1,27 +1,23 @@
-# AngularComponentInteractionTest
+# Component 參數傳遞
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+## 使用 input binding 從 parent 傳遞資料給 child
 
-## Development server
+1. 基本的 input binding：module `input-binding-*`
+2. 使用 setter 攔截 input binding：module `setter-interation-*`
+3. 使用 `ngOnChange()` 攔截 input binding：module `ngonchange-inetration-*`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## parent 使用 EventEmitter 監聽 child 變數值改變 event
 
-## Code scaffolding
+module：`eventemitter-*`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 使用 local variable 互動
 
-## Build
+module：`local-variable-*`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 使用 @ViewChild 存取子元件屬性與方法
 
-## Running unit tests
+module：`viewchild-*`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 使用 service 互動（雙向溝通）
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+module：`service-interation-*`
