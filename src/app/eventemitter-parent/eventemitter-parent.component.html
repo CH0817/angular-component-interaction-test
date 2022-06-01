@@ -1,0 +1,11 @@
+<h2>Should mankind colonize the Universe?</h2>
+<h3>Agree: {{ agreed }}, Disagree: {{ disagreed }}</h3>
+
+<!-- [name]="voter"，[給子元件接收的變數名稱]="父元件的變數" -->
+<!-- (voted)="onVoted($event)"，(子元件的 EevetEmitter 變數)="父元件的 function(固定寫 $event)" -->
+<app-eventemitter-child
+  *ngFor="let voter of voters"
+  [name]="voter"
+  (voted)="onVoted($event)"
+>
+</app-eventemitter-child>

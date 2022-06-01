@@ -9,6 +9,8 @@ import { SetterInetrationParentComponent } from './setter-inetration-parent/sett
 import { SetterInetrationChildComponent } from './setter-inetration-child/setter-inetration-child.component';
 import { NgonchangeInetrationChildComponent } from './ngonchange-inetration-child/ngonchange-inetration-child.component';
 import { NgonchangeInetrationParentComponent } from './ngonchange-inetration-parent/ngonchange-inetration-parent.component';
+import { EventemitterParentComponent } from './eventemitter-parent/eventemitter-parent.component';
+import { EventemitterChildComponent } from './eventemitter-child/eventemitter-child.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NgonchangeInetrationParentComponent } from './ngonchange-inetration-par
     SetterInetrationParentComponent,
     SetterInetrationChildComponent,
     NgonchangeInetrationChildComponent,
-    NgonchangeInetrationParentComponent
+    NgonchangeInetrationParentComponent,
+    EventemitterParentComponent,
+    EventemitterChildComponent
   ],
   imports: [
     BrowserModule,
