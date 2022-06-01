@@ -1,0 +1,7 @@
+<h2>{{ master }} controls {{ heroes.length }} heroes</h2>
+<!-- [hero]="hero"，[給子元件接收的變數名稱]="父元件的變數" -->
+<app-input-binding-child
+  *ngFor="let hero of heroes"
+  [hero]="hero"
+  [master]="master"
+></app-input-binding-child>
